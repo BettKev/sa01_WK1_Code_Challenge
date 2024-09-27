@@ -8,7 +8,7 @@
 //NOTE: TO BE ABLE TO TEST THIS CODE PLEASE COPY AND PASTE IT TO YOUR CHROME BROWSER DEVELOPER TOOLS CONSOLE FOR IT TO RUN PROPERLY AND DISPLAY OUTPUT
 
 // This line prompts the user to enter the speed of a car and takes two values a string and a default value to display on input field using prompt()
-let userInput = Number(prompt("Enter the speed of the car:", 0));
+let userInput = prompt("Enter the speed of the car:", 0);
 
 // This function is used to calculate the demerit points based on the provided speed input at prompt()
 function speedChecker(userInput) {
@@ -22,7 +22,7 @@ function speedChecker(userInput) {
         // Calculate the demerit points if speed is above 70
         // For example (demeritPoints => (80-70)/5 = 2
         // Here Math.floor is used to round down the demeritPoints value to a whole number for easy evaluation
-        const demeritPoints = Math.floor((userInput - speedLimit) / demeritPointsPerKm);
+        const demeritPoints = (userInput - speedLimit) / demeritPointsPerKm;
         
         // Print the demerit points or suspension message
         if (demeritPoints > 12) {
