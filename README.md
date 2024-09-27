@@ -11,11 +11,7 @@ THis is a repository containing the grader.js which is a grade generator, salary
 You can use fork and clone the repository to be able to have the code in your local development environment so as to be able to test it out.
 
 ## Installation Requirements
-Git
-```
-```
-Chrome browser as all code is meant to be tested in the chrome browser developer tools console.
-Ensure to test in the browser console as testing in a linux terminal will fail due to lack of some code implementations.
+Git, any code editor preferably visual studio code and a chrome browser as all code is meant to be tested in the chrome browser developer tools console since testing in a linux terminal will fail due to lack of some code implementations.
 
 ### Installation instruction
 
