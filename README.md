@@ -22,19 +22,17 @@ Git clone https://github.com/BettKev/sa01_WK1_Code_Challenge.git
 
 Open you terminal and navigate to the project directory. This is relative to where you cloned the project in your local environment and will vary from user to user.
 
-Inside the project directory which should i.e "./sa01_WK1_Code_Challenge" you will find three separate files these are:
+Inside the project directory which you cloned i.e "./sa01_WK1_Code_Challenge" you will find three separate files these are:
 
 ```
 1. speed.js
 2. salary.js
 3. grader.js
-These are the files related to each question and each file contains a separate solution.
 
 ```
+Open the files using any code editor of preference and copy it to your chrome browser developer tools console.
 
 Note: You have to copy the code inside the files to your browser console to be able to test them as they use a "prompt()" method to request for input and this method does not work in the terminal. That requires a whole new line of code which i will leave to you to figure out.
-
-
 
 ## Technologies used
 Github
@@ -44,8 +42,8 @@ Javascript
 github.com/BettKev
 
 ### License
-The content of this site is licensed under the MIT license
-Copyright (c) 2018.
+The content of this documentation is licensed under the MIT license
+Copyright (c) 2024.
 
 
 
