@@ -12,6 +12,8 @@ You can use fork and clone the repository to be able to have the code in your lo
 
 ## Installation Requirements
 Git
+```
+```
 Chrome browser as all code is meant to be tested in the chrome browser developer tools console.
 Ensure to test in the browser console as testing in a linux terminal will fail due to lack of some code implementations.
 
@@ -23,6 +25,7 @@ Git clone https://github.com/BettKev/sa01_WK1_Code_Challenge.git
 ```
 
 Open you terminal and navigate to the project directory. This is relative to where you cloned the project in your local environment and will vary from user to user.
+
 Inside the project directory which should i.e "./sa01_WK1_Code_Challenge" you will find three separate files these are:
 
 ```
