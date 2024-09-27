@@ -5,6 +5,10 @@
 
 // SOLUTION
 
+//NOTE: TO BE ABLE TO TEST THIS CODE PLEASE COPY AND PASTE IT TO YOUR CHROME BROWSER DEVELOPER TOOLS CONSOLE FOR IT TO RUN PROPERLY AND DISPLAY OUTPUT
+
+// IT WILL RUN WITHIN YOUR LINUX OR VS CODE TERMINAL HOWEVER NO OUTPUT WILL BE SEEN DUE TO THE PROMPT() REQUIRED THAT ONLY WORKS IN A BROWSER WINDOW
+
 // This line prompts the user for input from the browser using prompt() method which takes in two arguments i.e the string "Enter the student's marks whose value should be between 0 and 100:" explaining what to do and a default value of 0.
 let marks = prompt("Enter the student's marks whose value should be between 0 and 100:", 0);
 
@@ -33,5 +37,5 @@ function grade(marks) {
     }
 }
 
-// This line will display the grade on the browser console
+// This line will display the grade on the chrome browser developer tools console
 console.log(grade(marks));
