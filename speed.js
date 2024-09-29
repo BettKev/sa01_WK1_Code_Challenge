@@ -21,7 +21,6 @@ function speedChecker(userInput) {
     else {
         // Calculate the demerit points if speed is above 70
         // For example (demeritPoints => (80-70)/5 = 2
-        // Here Math.floor is used to round down the demeritPoints value to a whole number for easy evaluation
         const demeritPoints = (userInput - speedLimit) / demeritPointsPerKm;
         
         // Print the demerit points or suspension message
